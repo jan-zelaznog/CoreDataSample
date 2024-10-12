@@ -14,6 +14,11 @@
 		3D6BC1482CB9FF7900863919 /* CDSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D6BC1462CB9FF7900863919 /* CDSample.xcdatamodeld */; };
 		3D6BC14A2CB9FF7B00863919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6BC1492CB9FF7B00863919 /* Assets.xcassets */; };
 		3D6BC14D2CB9FF7B00863919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6BC14B2CB9FF7B00863919 /* LaunchScreen.storyboard */; };
+		3D6BC15A2CBA061500863919 /* Persona+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6BC1582CBA061500863919 /* Persona+CoreDataClass.swift */; };
+		3D6BC15B2CBA061500863919 /* Persona+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6BC1592CBA061500863919 /* Persona+CoreDataProperties.swift */; };
+		3D6BC15D2CBA079F00863919 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6BC15C2CBA079F00863919 /* RegisterViewController.swift */; };
+		3D6BC15F2CBA0BB700863919 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6BC15E2CBA0BB700863919 /* Utils.swift */; };
+		3D6BC1612CBA125300863919 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6BC1602CBA125300863919 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		3D6BC1492CB9FF7B00863919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D6BC14C2CB9FF7B00863919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D6BC14E2CB9FF7B00863919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6BC1582CBA061500863919 /* Persona+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persona+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3D6BC1592CBA061500863919 /* Persona+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persona+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3D6BC15C2CBA079F00863919 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3D6BC15E2CBA0BB700863919 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3D6BC1602CBA125300863919 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +68,14 @@
 		3D6BC13C2CB9FF7800863919 /* CDSample */ = {
 			isa = PBXGroup;
 			children = (
+				3D6BC1582CBA061500863919 /* Persona+CoreDataClass.swift */,
+				3D6BC1592CBA061500863919 /* Persona+CoreDataProperties.swift */,
+				3D6BC15E2CBA0BB700863919 /* Utils.swift */,
 				3D6BC13D2CB9FF7900863919 /* AppDelegate.swift */,
 				3D6BC13F2CB9FF7900863919 /* SceneDelegate.swift */,
 				3D6BC1412CB9FF7900863919 /* ViewController.swift */,
+				3D6BC15C2CBA079F00863919 /* RegisterViewController.swift */,
+				3D6BC1602CBA125300863919 /* TableViewController.swift */,
 				3D6BC1432CB9FF7900863919 /* Main.storyboard */,
 				3D6BC1492CB9FF7B00863919 /* Assets.xcassets */,
 				3D6BC14B2CB9FF7B00863919 /* LaunchScreen.storyboard */,
@@ -143,8 +158,13 @@
 			files = (
 				3D6BC1422CB9FF7900863919 /* ViewController.swift in Sources */,
 				3D6BC13E2CB9FF7900863919 /* AppDelegate.swift in Sources */,
+				3D6BC15D2CBA079F00863919 /* RegisterViewController.swift in Sources */,
+				3D6BC15B2CBA061500863919 /* Persona+CoreDataProperties.swift in Sources */,
 				3D6BC1482CB9FF7900863919 /* CDSample.xcdatamodeld in Sources */,
+				3D6BC15A2CBA061500863919 /* Persona+CoreDataClass.swift in Sources */,
 				3D6BC1402CB9FF7900863919 /* SceneDelegate.swift in Sources */,
+				3D6BC1612CBA125300863919 /* TableViewController.swift in Sources */,
+				3D6BC15F2CBA0BB700863919 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
